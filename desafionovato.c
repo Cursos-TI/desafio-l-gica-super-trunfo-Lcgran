@@ -18,6 +18,9 @@ struct Carta {
 void compararCartas(struct Carta carta1, struct Carta carta2, const char* atributo_escolhido);
 
 int main() {
+
+    printf("Desafio Novato!\n");
+    printf("Novo commit\n");
     // Declaração e inicialização dos dados das duas cartas pré-definidas
     struct Carta carta1;
     strcpy(carta1.estado, "SP");
